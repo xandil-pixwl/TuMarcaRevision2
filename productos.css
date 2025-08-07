@@ -18,7 +18,7 @@ html, body {
 
 /*Codigo css para producto.html*/
 .section-imagen {
-    background-image: url(Portada_Productos.jpeg); 
+    background-image: url(portadaProductos.png); 
     background-size: cover; /* Hace que la imagen cubra todo el contenedor */
     background-position: center;
     background-repeat: no-repeat;
@@ -95,9 +95,11 @@ h1, h4 {
     line-height: 1.5em;
     margin-bottom: 20px;
     text-align: center;
+    margin-top: 50px;
 }
 
 .btn {
+  background-color: #a4195b;
     position: relative;
     padding: 20px 50px;
     text-decoration: none;
@@ -116,7 +118,7 @@ h1, h4 {
     height: 200%;
     left: 0;
     top: -200%;
-    background-color: #a4195b;
+    background-color: #ffffff;
     border-radius: 50%;
     transition: all 0.6s ease;
     z-index: -1;

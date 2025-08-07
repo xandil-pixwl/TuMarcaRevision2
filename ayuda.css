@@ -19,22 +19,6 @@ h1, h2, h3, h4 {
     font-family: "Waildesh", sans-serif;
 }
 
-/*Pantalla principal que abarca pantalla completa, como una portada*/
-.section-imagen {
-    background-image: url(faq.jpg); 
-    background-size: cover; /*Hace que la imagen cubra todo el contenedor*/
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100vh; /*Ocupa toda la pantalla*/
-    margin-left: 85px; /*Deja espacio para el sidebar*/
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #fff;   
-    text-align: center;
-    padding: 25px;
-}
-
 .ayuda-contenido {
   margin-left: 85px; /*espacio por el sidebar*/
   padding: 50px 20px;
